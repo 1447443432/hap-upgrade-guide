@@ -21,12 +21,6 @@
 
 在**对应节点**上提前获取本次升级实际需要的镜像或资源。例如：
 
-> **镜像名称注意事项**：
-> - 文档预览服务的实际镜像名称与官网显示名称不同，必须使用以下实际镜像名称：
->   - `mingdaoyun-doc`（官网显示：mingdaoyun-doc-preview）
->   - `mingdaoyun-ldoc`（官网显示：mingdaoyun-doc-preview-extension）
-> - 在拉取镜像、修改配置文件时，务必使用实际镜像名称
-
 ```bash
 # HAP 微服务镜像
 crictl pull registry.cn-hangzhou.aliyuncs.com/mdpublic/mingdaoyun-hap:{目标版本号}
@@ -49,12 +43,6 @@ crictl images | grep mingdaoyun
 保留本小节时，删除上方“若服务器可访问互联网”小节。
 
 请在**可访问互联网的机器上**提前下载本次升级实际需要的全部离线文件，并上传到对应服务器：
-
-> **镜像名称注意事项**：
-> - 文档预览服务的实际镜像名称与官网显示名称不同，必须使用以下实际镜像名称：
->   - `mingdaoyun-doc`（官网显示：mingdaoyun-doc-preview）
->   - `mingdaoyun-ldoc`（官网显示：mingdaoyun-doc-preview-extension）
-> - 在下载镜像、修改配置文件时，务必使用实际镜像名称
 
 | 文件 | 下载链接 |
 |------|----------|

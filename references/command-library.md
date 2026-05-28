@@ -12,12 +12,6 @@
 
 ## 1. 镜像拉取 / 导入（根据网络情况）
 
-> **镜像名称注意事项**：
-> - 文档预览服务的实际镜像名称与官网显示名称不同，必须使用以下实际镜像名称：
->   - `mingdaoyun-doc`（官网显示：mingdaoyun-doc-preview）
->   - `mingdaoyun-ldoc`（官网显示：mingdaoyun-doc-preview-extension）
-> - 在拉取镜像、修改配置文件时，务必使用实际镜像名称
-
 ### 联网模式 — 单机
 - **AMD64**: `docker pull registry.cn-hangzhou.aliyuncs.com/mdpublic/mingdaoyun-hap:{目标版本号}` 
   - **示例**：`docker pull registry.cn-hangzhou.aliyuncs.com/mdpublic/mingdaoyun-hap:7.1.0` 
